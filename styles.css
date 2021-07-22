@@ -7,24 +7,11 @@ body{
     background: linear-gradient(rgba(6,72,105,.849),rgba(3,96,133)),url(./image/blue-abstract-background.jpg);
     background-position: center; 
 }
-header{
-    background-color: white;
-}
-header .container{
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-}
-header .container a{
-    margin-right: 200px;
-    text-decoration: none;
-    font-size: 20px;
-}
+
 section{
     width: 500px;
     height: 300px;
     margin: 100px auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 div{
     width: 100%;
@@ -54,8 +41,11 @@ form{
     width: 600px;
     height: 700px;
     border-radius: 6px;
-    margin-top: 50px;
 }
 .subbutton{
     margin-top: 20px;
+}
+
+.d-none{
+    display: none;
 }

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <section>
+    <section id="formSection">
         <form id="form">
             <div>
                 <label for="name">Name</label>
@@ -43,7 +43,13 @@
 
         </form>
     </section>
-
+    <section class="d-none" id="previewSection">
+        Name: <span id="previewName"></span><br>
+        Email: <span id="previewEmail"></span><br>
+        Address: <span id="previewAddress"></span><br>
+        Contact: <span id="previewContact"></span><br>
+        Profession: <span id="previewProfession"></span>
+    </section>
     <script src="app.js"></script>
 </body>
 
